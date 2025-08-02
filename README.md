@@ -1,9 +1,9 @@
-# YAI2A - Yet Another Image 2 ASCII
-
+# Yet Another Image 2 ASCII
+![Banner](banner.png)
 **YAI2A** is a minimal and efficient Python tool for converting images into ASCII art. Designed for clarity and ease of use, it is ideal for developers, artists, or hobbyists interested in text-based image rendering.
 
 ## Features
-
+![Preview](preview.png)
 - Converts standard image formats (e.g., JPG, PNG) to ASCII
 - Automatically resizes images for optimal terminal display
 - Saves ASCII output to a `.txt` file
