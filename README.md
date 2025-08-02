@@ -15,14 +15,14 @@
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/YAI2A.git
-cd YAI2A
+git clone https://github.com/yourusername/yai2a.git
+cd yai2a
 ```
 
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install numpy, argparse
 ```
 
 > Requires Python 3.8 or higher and [Pillow](https://python-pillow.org/) for image processing.
@@ -38,11 +38,13 @@ python3 main.py <image_path> [output_width]
 Example:
 
 ```bash
-python3 main.py sample.png 100
+python3 main.py --file image.png --cols 80
 ```
 
-- `image_path`: Path to the input image file
-- `output_width` (optional): Width of the output in characters (default: 80)
+- `--file`: Path to the input image file
+- `--scale`: Image scale size
+- `--output`: Name for the output files
+- `--cols` (optional): Columns of the output in characters (default: 80)
 
 The resulting ASCII art will be saved to `output.txt`.
 
